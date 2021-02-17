@@ -1,0 +1,32 @@
+main {
+    margin-left: 10% ;
+    margin-right: 10%;
+}
+footer {
+    text-align: end;
+    font-size: small;
+}
+.topic{
+    font-weight: bolder ;
+}
+span{
+    font-style: italic;
+    margin-left: 10pt;
+    font-weight: normal;
+}
+.sub{
+    text-decoration: underline;
+
+}
+.redItems{
+    list-style: none;
+}
+.redItems li::before{
+    content: "*"; 
+    color: red;
+    display: inline-block;
+    margin-right: 3pt;
+}
+address p{
+    line-height: 2pt;
+}
